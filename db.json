@@ -1,46 +1,6 @@
 {
   "videos": [
     {
-      "id": 2,
-      "titulo": "Natal macabro parte FINAL",
-      "tag": "mobile",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "Parte 3 e FINAL do Especial RPG - Natal Macabro"
-    },
-    {
-      "id": 5,
-      "titulo": "Natal macabro parte FINAL",
-      "tag": "mobile",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "Parte 3 e FINAL do Especial RPG - Natal Macabro"
-    },
-    {
-      "id": 5,
-      "titulo": "Natal macabro parte FINAL",
-      "tag": "backend",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "Parte 3 e FINAL do Especial RPG - Natal Macabro"
-    },
-    {
-      "id": 6,
-      "titulo": "Natal macabro parte FINAL",
-      "tag": "frontend",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "Parte 3 e FINAL do Especial RPG - Natal Macabro"
-    },
-    {
-      "id": 3,
-      "titulo": "Natal macabro parte FINAL",
-      "tag": "mobile",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "Parte 3 e FINAL do Especial RPG - Natal Macabro"
-    },
-    {
       "id": "bc4f3c48-1220-47e1-96c1-b1b0d1989a7a",
       "tag": "frontend",
       "titulo": "UM VIDEO QUALQUER",
