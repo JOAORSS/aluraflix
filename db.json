@@ -1,28 +1,76 @@
 {
   "videos": [
     {
-      "id": "bc4f3c48-1220-47e1-96c1-b1b0d1989a7a",
-      "tag": "frontend",
-      "titulo": "UM VIDEO QUALQUER",
-      "imagem": "https://img.youtube.com/vi/QQO_NYfjA_Y/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/QQO_NYfjA_Y?si=y1d4m64VF6X71IMl",
-      "descricao": "bom fim de ano chegou."
+      "id": "0ff7952c-8d6c-414d-8d3f-2b6c26608c73",
+      "tag": "backend",
+      "titulo": "O que faz uma desenvolvedora Back-end? com Juliana Amoasei",
+      "imagem": "https://i.ytimg.com/vi/fiPfvylj6rk/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/fiPfvylj6rk?si=VlN2X42UQ3GzEj2D",
+      "descricao": "Afinal, quem trabalha com Back-end faz o que? Com quais outras áreas da tecnologia essa pessoa acaba se relacionando no dia a dia de trabalho? Quais são as principais habilidades e conhecimentos necessários para atuar nessa área? Essas e outras perguntas serão respondidas por Juliana Amoasei, desenvolvedora Back-end com anos de experiência no mercado."
     },
     {
-      "id": "f1681620-6d8b-4fd3-a7ec-f6aa1b23a16a",
-      "tag": "frontend",
-      "titulo": " Brownie",
-      "imagem": "https://img.youtube.com/vi/ipVRX1GeUUQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/ipVRX1GeUUQ?si=rgVwr6t-9XipmF-X",
-      "descricao": "asdasdasdasdasd"
+      "id": "411ffc3e-bd58-443b-8330-a61466d5ecc5",
+      "tag": "backend",
+      "titulo": "Ecossistema Node.js #HipstersPontoTube",
+      "imagem": "https://img.youtube.com/vi/2hrIwQWx9w4/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/2hrIwQWx9w4?si=1o9pGQQ58zJfL0ue",
+      "descricao": " Recebemos a Juliana Amoasei, uma das nossas instrutoras, para falar sobre as principais bibliotecas e frameworks desse imenso ecossistema do Node.js."
     },
     {
-      "id": "dbb5d8be-6e79-4292-9bee-07fda8a83f8f",
+      "id": "3acb94ad-3bd0-4fc6-a840-3428152d8e07",
+      "tag": "backend",
+      "titulo": "Se prepare para uma entrevista de dev back-end | Hipsters",
+      "imagem": "https://img.youtube.com/vi/jzZdMEP8EkY/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/jzZdMEP8EkY",
+      "descricao": "Neste vídeo, discutimos como se preparar para uma entrevista para a posição de desenvolvedor back-end, abordando as principais habilidades e conhecimentos necessários."
+    },
+    {
+      "id": "e934dc50-6a36-4a1a-b7d4-a2af0aee7434",
       "tag": "frontend",
-      "titulo": "Bastidores do RPG do Cellbit (Natal Macabro)",
-      "imagem": "https://img.youtube.com/vi/1RFBbY-M3_4/mqdefault.jpg",
-      "link": "https://www.youtube.com/embed/1RFBbY-M3_4?si=Y-BznCsovuDKJO1B",
-      "descricao": "Um pouquinho de como foi a experiência de participar do especial de natal de Ordem Paranormal, o Natal Macabro! Quis fazer um vlogzinho mostrando desde o dia que fui convidada até o dia das gravações, porque eu imagino que vocês devam ter curiosidade de como são as coisas (já que eu também tinha UHAHUAHUA). Espero que gostem, fiz tudo com muito carinho! E agradeço DEMAIS por todo apoio que vocês me deram durante o RPG, foi incrível interpretar a Lila pra vocês ♥"
+      "titulo": "Como deixar o Layout Responsivo no seu site | #AluraMais",
+      "imagem": "https://img.youtube.com/vi/kyFiT4ofMwk/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/kyFiT4ofMwk",
+      "descricao": "Aprenda responsividade na prática com este tutorial sobre como transformar seu site em um layout responsivo através do uso de ferramentas de desenvolvimento."
+    },
+    {
+      "id": "f3c9d156-b3f1-48bd-92cf-5315b512c634",
+      "tag": "frontend",
+      "titulo": "Diferença entre Back-End e Front-End com Mario Souto",
+      "imagem": "https://img.youtube.com/vi/xrRy3RI3HE4/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/xrRy3RI3HE4",
+      "descricao": "Neste vídeo, Mario Souto explica as diferenças entre as áreas de Front-End e Back-End no desenvolvimento web."
+    },
+    {
+      "id": "799dac55-22da-410c-9901-bd2ac6cf2d6f",
+      "tag": "frontend",
+      "titulo": "Front-end vs. Back-end: ¡Descubre el lado perfecto para ti! #LuchaDev",
+      "imagem": "https://img.youtube.com/vi/QjOWz9avkg8/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/QjOWz9avkg8",
+      "descricao": "Este vídeo discute as diferenças entre Front-End e Back-End, ajudando você a descobrir qual área combina mais com seu perfil."
+    },
+    {
+      "id": "deda9779-0e5f-4600-9ed4-bef56201febb",
+      "tag": "mobile",
+      "titulo": "Guia de Carreira: Android | #HipstersPontoTube",
+      "imagem": "https://img.youtube.com/vi/Jt6cRnki-IE/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/Jt6cRnki-IE",
+      "descricao": "Neste vídeo, especialistas discutem as oportunidades e caminhos na carreira de desenvolvimento Android, oferecendo insights valiosos para quem deseja ingressar nessa área."
+    },
+    {
+      "id": "77366271-e613-4685-99de-cdd9ef276762",
+      "tag": "mobile",
+      "titulo": "Curso Grátis de Programação da Alura - Aprenda a Programar do Zero",
+      "imagem": "https://img.youtube.com/vi/9zUetfyxZqo/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/9zUetfyxZqo",
+      "descricao": "Este curso introdutório gratuito da Alura ensina os fundamentos da programação, ideal para iniciantes que desejam começar a desenvolver aplicativos móveis."
+    },
+    {
+      "id": "fee8784f-a0b3-4ee4-ad76-39d1d3f4945b",
+      "tag": "mobile",
+      "titulo": "Como funciona a plataforma da Alura?",
+      "imagem": "https://img.youtube.com/vi/6HfnkwkZ0Ss/mqdefault.jpg",
+      "link": "https://www.youtube.com/embed/6HfnkwkZ0Ss",
+      "descricao": "Este vídeo tutorial explora a plataforma da Alura, destacando cursos e recursos disponíveis para quem deseja aprender desenvolvimento mobile e outras tecnologias."
     }
   ]
 }

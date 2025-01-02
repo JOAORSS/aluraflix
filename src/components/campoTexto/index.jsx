@@ -77,8 +77,8 @@ export default function CampoTexto({
     return (
         <CampoStyled $color={color} $valid={valido} $expanded={textarea} $bgColorSelect={bgColorSelect}>
             <label>{label}</label>
-            {input && <input onBlur={() => inputValidation(value)} required={required} type={type} name={name} value={value} placeholder={placeholder} onChange={onChange} />}
-            {textarea && <textarea onBlur={() => inputValidation(value)} required={required} name={name} value={value} placeholder={placeholder} onChange={onChange} />}
+            {input && <input autoComplete="off" onBlur={() => inputValidation(value)} required={required} type={type} name={name} value={value} placeholder={placeholder} onChange={onChange} />}
+            {textarea && <textarea autoComplete="off" onBlur={() => inputValidation(value)} required={required} name={name} value={value} placeholder={placeholder} onChange={onChange} />}
             {select && 
                 <select required={required} type={type} name={name} placeholder={placeholder} onChange={onChange} value={value}> 
                     <option value="selecione">Selecione uma categoria</option>

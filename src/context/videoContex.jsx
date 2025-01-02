@@ -9,7 +9,8 @@ function VideoProvider({ children }) {
     const [videos, dispatch] = useReducer( videoReducer, []);
     const [modalOpen, setModalOpen] = useState(false);
 
-    const url = "https://my-json-server.typicode.com/JOAORSS/aluraflix/videos";
+    // const url = "https://my-json-server.typicode.com/JOAORSS/aluraflix/videos";
+    const url = "http://localhost:8080/videos";
     
     useEffect(() => {
         fetch(url)

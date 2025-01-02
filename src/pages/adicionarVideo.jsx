@@ -70,7 +70,7 @@ export default function AdicionarVideo() {
     const navigate = useNavigate();
 
     const [titulo, setTitulo] = useState('');
-    const [categoria, setCategoria] = useState('');
+    const [categoria, setCategoria] = useState('selecione');
     const [imagem, setImagem] = useState('');
     const [video, setVideo] = useState('');
     const [descricao, setDescricao] = useState('');
