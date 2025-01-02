@@ -8,10 +8,11 @@ export const useVideoContext = () => {
         dispatch,
         modalOpen,
         setModalOpen,
+        url,
     }  = useContext(VideoContext);
 
     function addVideo(video) {
-        fetch(`http://localhost:8080/videos`, {
+        fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -27,7 +28,7 @@ export const useVideoContext = () => {
     }
 
     function deleteVideo (id) {
-        fetch(`http://localhost:8080/videos/${id}`, {
+        fetch(`${url}/${id}`, {
             method: 'DELETE',
         })
         .then(response => {
@@ -38,7 +39,7 @@ export const useVideoContext = () => {
     }
 
     function updateVideo (id, video) {
-        fetch(`http://localhost:8080/videos/${id}`, {
+        fetch(`${url}/${id}`, {
             method: 'PUT',  
             headers: {
                 'Content-Type': 'application/json',
