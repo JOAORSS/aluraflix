@@ -28,7 +28,7 @@ const CampoStyled = styled.div`
             width: 9px;
         }
         &::-webkit-scrollbar-track {
-            background: var(--cor-primaria);
+            background: var(--cor-quaternaria);
             border-radius: 5px;
         }
         &::-webkit-scrollbar-thumb {

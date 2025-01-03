@@ -5,6 +5,8 @@ import Rodape from "./components/rodape"
 import { VideoProvider } from "./context/videoContex"
 import { useResolvedPath } from "react-router-dom"
 import { useEffect, useState } from "react"
+import { useMediaQuery } from "react-responsive"
+import MenuMobile from "./components/menuMobile"
 
 const AppConteiner = styled.div`
   width: 100%; 
@@ -26,6 +28,8 @@ const MainContent = styled.main`
 function App() {
   const [alternative, setAlternative] = useState(false);
   const path = useResolvedPath().pathname;
+
+  const leyoutMobile = useMediaQuery({maxWidth: 859}); 
   
   useEffect(() => {
     if (path === '/video/novo') {
@@ -37,13 +41,13 @@ function App() {
 
   return (
     <AppConteiner>
-        <Cabecalho alternative={alternative} />
+        {!leyoutMobile && <Cabecalho alternative={alternative} />}
         <VideoProvider>
           <MainContent>
             <AppRoutes />
           </MainContent>
         </VideoProvider>
-        <Rodape />
+        {!leyoutMobile ? <Rodape /> : <MenuMobile />}
     </AppConteiner>
   )
 }

@@ -35,6 +35,7 @@ const Banner = styled.div`
     padding: 0px 50px;
     width: 100%;
     margin-bottom: 100px;
+    gap: 35px;
 `
 
 const IframeStyled = styled.iframe`
@@ -42,6 +43,12 @@ const IframeStyled = styled.iframe`
     width: 646px;
     height: 334px;
     border: 2px solid ${({ $color }) => $color};
+
+    @media (max-width: 1055px){
+        aspect-ratio: 4/1;
+        width: 453px;
+        height: 334px;
+    }
 `
 
 const InfoContainer = styled.div`
@@ -81,6 +88,11 @@ const LinkToVideo = styled(Link)`
         width: 100%;
         height: 100%;
         box-shadow: 0px 0px 29px 0px ${({ $color }) => $color} inset;
+    }
+    @media (max-width: 1055px){
+        aspect-ratio: 4/1;
+        width: 453px;
+        height: 334px;
     }
 `
 

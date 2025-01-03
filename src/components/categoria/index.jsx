@@ -10,8 +10,14 @@ const SecaoCategoria = styled.section`
     flex-direction: column;
     align-items: flex-start;
     margin-top: 50px;
+    width: 100%;
     gap: 50px;
     margin-bottom: 50px;
+
+    @media (max-width: 1055px){
+        padding: 0px;
+        align-items: center;
+    }
 `
 
 const VideosContainer = styled.div`
@@ -19,9 +25,28 @@ const VideosContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    width: 100%;
     justify-content: left;
     align-items: center;
+
+    @media (max-width: 1055px){
+        width: 90vw;
+        flex-wrap: nowrap;
+        align-self: center;
+        overflow-x: scroll;
+        padding-bottom: 20px;
+        &::-webkit-scrollbar {
+            height: 14px;
+        }
+        &::-webkit-scrollbar-track {
+            background: var(--cor-quaternaria);
+            border-radius: 12px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: var(--cor-primaria);
+            border-radius: 12px;
+            border: 4px solid var(--cor-quaternaria);
+        }
+    }
 `
 
 export default function Categoria({ tag }) {
