@@ -13,6 +13,8 @@ const MenuConteiner = styled.menu`
     border-top: 2px solid var(--cor-primaria);
     box-shadow: 0px 0px 20px 0px var(--cor-primaria);
     gap: 62px;
+    padding: 0px;
+    width: 100vw;
 `
 
 export default function MenuMobile() {

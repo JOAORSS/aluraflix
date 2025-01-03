@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useVideoContext } from "../hooks/useVideoContext";
 import styled from "styled-components";
+import { useEffect } from "react";
 
 const PlayerConteiner = styled.div`
     display: flex;
@@ -25,6 +26,10 @@ export default function Player() {
     const { videos } = useVideoContext();
     const { id } = useParams();
     const video = videos.find((video) => video.id == id);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     
     return (
         <PlayerConteiner>

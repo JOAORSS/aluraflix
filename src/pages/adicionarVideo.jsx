@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import CampoTexto from "../components/campoTexto"
 import Botao from "../components/botao";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import { useVideoContext } from "../hooks/useVideoContext";
 import { useNavigate } from "react-router-dom";
@@ -24,8 +24,20 @@ const AdicionarForm = styled.form`
         border-bottom-color: var(--cor-secundaria);
         width: 100%;
         padding: 20px 0px;
-
     }
+    @media (max-width: 1224px){
+        width: 90vw;
+    }
+    
+    @media (max-width: 1091px){
+        align-items: center;
+        flex-direction: column;
+        input, textarea, select{
+            width: 80vw;
+            min-width: 80vw;
+        }
+    }
+
 `
 
 const AdicionarContainer = styled.div`
@@ -53,7 +65,14 @@ const AdicionarContainer = styled.div`
         text-align: center;
         text-transform: uppercase;
     }
-
+    @media (max-width: 1224px){
+        h1{
+            font-size: 40px;
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
 `
 
 export const BotoesForm = styled.div`
@@ -68,12 +87,16 @@ export const BotoesForm = styled.div`
 export default function AdicionarVideo() {
     const { addVideo } = useVideoContext();
     const navigate = useNavigate();
-
+    
     const [titulo, setTitulo] = useState('');
     const [categoria, setCategoria] = useState('selecione');
     const [imagem, setImagem] = useState('');
     const [video, setVideo] = useState('');
     const [descricao, setDescricao] = useState('');
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const limparCampos = (e) => {
         e.preventDefault();

@@ -6,7 +6,8 @@ import { CgCloseO } from "react-icons/cg";
 import { useVideoContext } from "@/hooks/useVideoContext";
 
 const EditarContainer = styled.dialog`
-    width: 974px;
+    overflow-x: hidden;
+    width: 80vw;
     height: 1140px;
     border-radius: 16px;
     background-color: var(--cor-quaternaria);
@@ -28,6 +29,13 @@ const EditarContainer = styled.dialog`
         align-self: flex-start;
         margin: 0;
         margin-top: 50px;
+    }
+    @media (max-width: 1027px){
+        h1{
+            font-size: 32px;
+            text-align: center;
+            align-self: center;
+        }
     }
 `;
 
@@ -51,6 +59,17 @@ const FormEditar = styled.form`
     align-items: center;
     width: 573px;
     gap: 35px;
+
+    @media (max-width: 876px){
+        h1{
+            font-size: 32px;
+            text-align: center;
+            align-self: center;
+        }
+        input, textarea, select{
+            width: 70vw;
+        }
+    }
 `;
 
 export const BotoesForm = styled.div`
@@ -59,6 +78,10 @@ export const BotoesForm = styled.div`
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 980px){
+        flex-direction: column;
+        gap: 10px;
+    }
 `;
 
 const Close = styled.button`
@@ -116,7 +139,7 @@ export default function ModalEditar() {
                 <Overlay />
                 <EditarContainer open={!!modalOpen}>
                 <FormEditar>
-                    <h1>Editar Video:</h1>
+                    <h1>Editar Card:</h1>
                     <CampoTexto
                         input
                         label="Título"

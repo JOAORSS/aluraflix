@@ -8,6 +8,9 @@ const CardStyled = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
+    @media (max-width: 493px){
+        scale: 0.8;
+    }
 `
 
 const CapaLink = styled(Link)`

@@ -7,7 +7,7 @@ const CampoStyled = styled.div`
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: var(--font-inputs);
     width: 573px;
 
     input, textarea, select{
@@ -47,6 +47,14 @@ const CampoStyled = styled.div`
     option[value="selecione"] {
         color: var(--cor-secundaria);
     }
+    
+    @media (max-width: 1224px){
+        width: fit-content;
+        input, textarea, select{
+            width: 470px;
+        }
+    }
+
 `
 
 export default function CampoTexto({

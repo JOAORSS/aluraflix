@@ -47,6 +47,7 @@ const VideosContainer = styled.div`
             border: 4px solid var(--cor-quaternaria);
         }
     }
+
 `
 
 export default function Categoria({ tag }) {

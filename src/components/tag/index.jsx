@@ -25,6 +25,9 @@ const TagConteiner = styled.div`
             }
         `
     )}
+    @media (max-width: 447px){
+        scale: 0.6;
+    }   
 `
 
 export default function TagTipo({ tag, expanded = false, destaque = false }) {
