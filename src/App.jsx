@@ -21,6 +21,8 @@ const MainContent = styled.main`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--cor-terciaria);
 `
 

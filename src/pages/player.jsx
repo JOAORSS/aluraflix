@@ -7,8 +7,9 @@ const PlayerConteiner = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    align-self: center;
     width: 100%;
+    height: 100%;
     h1, p{
         color: #FFF;
         width: 60%;
