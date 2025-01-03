@@ -184,7 +184,7 @@ export default function AdicionarVideo() {
                     >
                         GUARDAR
                     </Botao>
-                    <Botao onClick={() => limparCampos} border={"#FFF"}>
+                    <Botao onClick={limparCampos} border={"#FFF"}>
                         LIMPAR
                     </Botao>
                 </BotoesForm>
